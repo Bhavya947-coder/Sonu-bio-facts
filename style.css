@@ -1,0 +1,174 @@
+/* Global Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header h1 .highlight {
+    color: #ffc3a0;
+    font-weight: bold;
+}
+
+.search-bar {
+    margin-top: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+    font-size: 18px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.search-bar input:focus {
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+main {
+    max-width: 900px;
+    margin: 40px ;
+    padding: 0 20px;
+}
+
+/* Blog List Grid */
+.blog-list {
+  display: grid;
+    
+    gap: 40px; /* Increased gap between the blog items */
+}
+
+/* Blog Item Styling */
+.blog-item {
+    background-color: white;
+    padding: 35px;  /* Adjusted padding for more spacing within each blog item */
+    border-radius: 12px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-item:hover {
+transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.blog-item h2 {
+    font-size: 1.5rem;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.blog-item p {
+    margin: 5px 0;
+    color: #666;
+}
+
+/* Blog Detail Styling */
+.blog-detail {
+    display: grid;
+}
+
+.blog-detail-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.blog-detail.hidden {
+    display: none;
+}
+
+.blog-content {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    color: #444;
+    margin: 20px 0;
+}
+
+.blog-date {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+/* Button Styling */
+.btn-back {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-back:hover {
+    background-color: #555;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 50px;
+}
+.filter-bar {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.filter-bar {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;  /* Ensure layout fits well */
+}
+
+.filter-bar label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.filter-bar input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.filter-bar button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.filter-bar button:hover {
+    background-color: #555;
+}

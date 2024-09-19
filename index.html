@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonu's Blog House</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>My <span class="highlight">Blog</span></h1>
+    
+    <!-- Search Bar -->
+    <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Search blogs..." oninput="searchBlogs()">
+    </div>
+
+    <!-- Date Range Filter -->
+    <div class="filter-bar">
+        <label for="startDate">Start Date:</label>
+        <input type="date" id="startDate">
+        <label for="endDate">End Date:</label>
+        <input type="date" id="endDate">
+        <button onclick="filterByDateRange()">Filter by Date Range</button>
+    </div>
+</header>
+
+    <main>
+        <section id="blogList" class="blog-list">
+            <!-- Blog posts will be dynamically inserted here by JavaScript -->
+        </section>
+
+        <section id="blogDetail" class="blog-detail hidden">
+            <!-- Individual blog post will be displayed here -->
+            <div class="blog-detail-content">
+                <h2 id="blogTitle"></h2>
+                <p id="blogDate" class="blog-date"></p>
+                <div id="blogContent" class="blog-content"></div>
+                <button onclick="goBack()" class="btn-back">Back to Blog List</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Stylish Blog</p>
+    </footer>
+ 
+
+    <script src="main.js"></script>
+</body>
+</html>

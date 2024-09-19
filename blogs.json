@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "My First Blog Post",
+    "date": "September 19, 2024",
+    "content": "This is the content of my first blog post. Welcome to my blog!"
+  },
+  {
+    "id": 2,
+    "title": "Learning HTML, CSS, and JS",
+    "date": "September 20, 2024",
+    "content": "In this post, I'll share how to get started with HTML, CSS, and JavaScript."
+  },
+  {
+    "id": 3,
+    "title": "JavaScript Tips and Tricks",
+    "date": "September 21, 2024",
+    "content": "Here are some helpful tips and tricks to improve your JavaScript skills."
+  },
+   {
+    "id": 4,
+    "title": "Final Test",
+    "date": "September 22, 2024",
+    "content": "This is the final test before submitting this website."
+  },
+    {
+    "id": 5,
+    "title": "Final Test",
+    "date": "September 22, 2024",
+    "content": "This is the final test before submitting this website."
+     },
+        {
+    "id": 6,
+    "title": "Final Test",
+    "date": "September 22, 2024",
+    "content": "This is the final test before submitting this website."
+        }
+]
